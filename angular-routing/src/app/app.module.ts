@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CustomerComponent } from './customer/customer.component';
 import { AdminModule } from './admin/admin.module';
+// import { MaterialModule } from '@angular/material';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { AdminModule } from './admin/admin.module';
   imports: [
     BrowserModule,
     AdminModule,
+    // MaterialModule,
     AppRoutingModule
   ],
   providers: [],
